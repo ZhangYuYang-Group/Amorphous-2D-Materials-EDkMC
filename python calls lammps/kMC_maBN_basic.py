@@ -85,7 +85,7 @@ def exchangeBond(structure):
 
 def runlammps():
     lammps_exe="lmp"
-    os.system("%s -in maBN.in" %(lammps_exe))
+    os.system("%s -in maBN-mlp.in" %(lammps_exe))
 
 def run(nstep):
     runlammps()
