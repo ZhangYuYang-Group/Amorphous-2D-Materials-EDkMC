@@ -29,4 +29,5 @@ in a terminal to start the simulation
 If you find this script userful, please cite:
 ```
 Nano Lett. 2022, 22, 8018−8024
+Phys. Rev. B 2024, 109, 174106
 ```
