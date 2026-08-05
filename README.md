@@ -24,6 +24,9 @@ lmp -i in.lammps
 
 in a terminal to start the simulation
 
+## Interatomic potentials
+
+The empirical and machine-learning potentials for MAC and maBN are available in the [latest release](https://github.com/ZhangYuYang-Group/Amorphous-2D-Materials-EDkMC/releases/latest).
 
 ## How to cite
 If you find this script userful, please cite:
