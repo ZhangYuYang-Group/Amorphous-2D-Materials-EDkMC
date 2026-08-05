@@ -79,7 +79,7 @@ The empirical and machine-learning potentials used in our MAC and maBN studies a
 | System | Potential                           | File        | Related work               |
 | ------ | ----------------------------------- | ----------- | -------------------------- |
 | MAC    | Empirical potential (AIREBO)        | `CH.airebo` | *Nano Letters* (2022)      |
-| maBN   | Empirical potential                 | `BN.extep`  | *Nano Letters* (2022)      |
+| maBN   | Empirical potential (Tersoff)                | `BN.extep`  | *Nano Letters* (2022)      |
 | MAC    | Machine-learning potential (DeePMD) | `MAC.pb`    | *Physical Review B* (2024) |
 | maBN   | Machine-learning potential (DeePMD) | `maBN.pb`   | *Physical Review B* (2024) |
 
