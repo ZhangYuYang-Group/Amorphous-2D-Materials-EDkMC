@@ -1,0 +1,16 @@
+units metal
+boundary p p p
+atom_style atomic
+neighbor 2.0 bin
+neigh_modify every 1
+
+read_data ./maBN.data
+
+pair_style extep 
+pair_coeff * * BN.extep N B
+
+thermo     1
+thermo_style custom step pe etotal
+minimize 1.0e-7 1.0e-10 1000 10000
+write_data ./relaxed.data
+run 0
